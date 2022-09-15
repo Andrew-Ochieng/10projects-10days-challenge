@@ -1,0 +1,71 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap');
+
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #a5b1c2;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    background-color: aliceblue;
+}
+
+
+#question {
+    font-family: 'Ms Madi', cursive;    
+    font-size: 44px;
+}
+
+
+.container-header {
+   padding: 0.1rem 0; 
+   text-align: center;
+
+}
+
+
+#title {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 64px;
+}
+
+
+
+
+
+
+
+.next {
+    background-color: #45aaf2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
