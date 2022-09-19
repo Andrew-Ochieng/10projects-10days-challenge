@@ -6,24 +6,28 @@
 body {
     padding: 0;
     margin: 0;
+    font-family: 'Maven Pro', sans-serif;
     background-color: #a5b1c2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
+    margin: 5% 0;
+    background-color: aliceblue;
+    border-radius: 20px;
+    overflow: auto;
 }
 
 
 .box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 3rem;
-    background-color: aliceblue;
+    padding: 1rem 4rem;
+    
+
 }
 
 
@@ -34,29 +38,59 @@ body {
 
 
 .container-header {
-   padding: 0.1rem 0; 
    text-align: center;
 
 }
 
 
 #title {
-    font-family: 'Maven Pro', sans-serif;
     font-size: 64px;
+
 }
 
 
 
+.quiz-list {
+    list-style: none;
+
+}
 
 
+.quiz-list li {
+    padding: 1rem 0;
+    font-size: 24px;
 
+}
+
+.quiz-list li input[type=radio] {
+    accent-color: blue;
+    transform: scale(1.5); 
+}
+
+/* .quiz-list li input[type='radio']:after {
+    accent-color: yellow;
+} */
 
 .next {
+    padding: 2rem;
+    margin: 2rem 0 0 0;
     background-color: #45aaf2;
+    min-width: 100%;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 28px;
+    cursor: pointer;
+
+
 }
 
 
-
+.next:hover{
+    background-color: #035a99;
+    animation-duration: 500s;
+    
+}
 
 
 
